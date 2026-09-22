@@ -1,0 +1,15 @@
+# dsh-manage-sessions bundle patch: inserts the session-manager plugin row
+# into the profile roster.
+#
+# 混合插件：同一 bundle 同时装配 host routes 与 web client slots。
+# 开发期可由 super-injector 热注入；重启后由 profile bundles 层装配。
+#
+# 可选配置：
+# - insert:
+#     - id: dsh-manage-sessions
+#       name: 'dsh-manage-sessions'
+#       config:
+#         stateDir: /custom/path/dsh-manage-sessions   # 缺省 $DSH_HOME/dsh-manage-sessions
+- insert:
+    - id: dsh-manage-sessions
+      name: 'dsh-manage-sessions'

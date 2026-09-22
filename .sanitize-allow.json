@@ -1,0 +1,12 @@
+[
+  {
+    "id": "G1-历史作者",
+    "match": "hoyyang <hoyyang@users.noreply.github.com>",
+    "note": "公开 git 身份（发布仓库 hoyyang/dsh-manage-sessions，用户 2026-09-22 拍板授权）"
+  },
+  {
+    "id": "S1-邮箱",
+    "match": "hoyyang@users.noreply.github.com",
+    "note": "公开 noreply 身份（G1 同源，发布授权内）"
+  }
+]
