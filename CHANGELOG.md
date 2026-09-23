@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.1
+
+- 安装文档调整：npm 独占名（全局唯一包标识）列为推荐安装方式并置于首位，GitHub 源码渠道降为备选；无代码变更。
+
 ## 0.7.0
 
 - 插件更名为 **dsh-manage-sessions**（原 dsh-session-manager；npm 上同名同功能包已被占用）：package.json、HTTP 路由前缀（/dsh-manage-sessions/*）、client 注册 id、样式 owner 全量同步。

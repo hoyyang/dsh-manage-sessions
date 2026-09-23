@@ -1,6 +1,6 @@
 {
   "name": "dsh-manage-sessions",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "DSH Web 会话管理插件：管理浮窗、批量归档/恢复/永久删除、会话强停、工作区行复制路径。",
   "type": "module",
   "main": "./lib/index.js",

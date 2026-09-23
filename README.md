@@ -15,12 +15,16 @@ DSH 侧栏原生增强的会话管理插件：**批量归档/恢复/永久删除
 
 ## 安装
 
-```bash
-dsh plugin add github:hoyyang/dsh-manage-sessions
-```
+**npm 独占名（推荐）**——`dsh-manage-sessions` 是全局唯一的包标识：
 
 ```bash
 dsh plugin add dsh-manage-sessions
+```
+
+备选（GitHub 源码渠道）：
+
+```bash
+dsh plugin add github:hoyyang/dsh-manage-sessions
 ```
 
 **零配置、开箱即用**（无需任何配置项）。要求 DSH `0.1.5-rc.1`（其他版本未实测，不承诺）。

@@ -15,12 +15,16 @@ Native-feeling session management for the DSH sidebar: **bulk archive / restore 
 
 ## Install
 
-```bash
-dsh plugin add github:hoyyang/dsh-manage-sessions
-```
+**npm exclusive name (recommended)** — `dsh-manage-sessions` is a globally unique package identifier:
 
 ```bash
 dsh plugin add dsh-manage-sessions
+```
+
+Alternative (GitHub source channel):
+
+```bash
+dsh plugin add github:hoyyang/dsh-manage-sessions
 ```
 
 **Zero config, works out of the box**. Requires DSH `0.1.5-rc.1` (other versions untested, unsupported).
